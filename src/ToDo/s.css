@@ -1,0 +1,122 @@
+body{
+    background-color: white;
+    color:black;
+    font-size: 1.3em;
+}
+.c{
+    max-width: 1340px;
+    margin: auto;
+    padding: 10px;
+}
+.input-field{
+    display: flex;
+    justify-content: space-between;
+}
+.input-field input{
+    background-color: #f5f5f5;
+    color: black;
+    width: 80%;
+    font-size: 1.1em;
+    padding: 10px;
+}
+button{
+    width: 70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+.add-button{
+    background-color:#47B5FF;
+}
+.items{
+    max-height: 50vh;
+    overflow-y: scroll;
+    scrollbar-width: none !important;
+}
+.items::-webkit-scrollbar{
+    width: 0;
+    display: none;
+}
+.items input{
+    color: black;
+    width: 80%;
+}
+h1{
+    margin-bottom: 10px;
+}
+.task .Delete{
+    background-color: #ec4545;
+    margin: 0px 10px ;
+}
+.complete-btn{
+    background-color: #47B5FF;
+    margin: 0px 10px ;
+}
+.task{
+    display: flex;
+    margin: 10px 0px;
+    position: relative;
+}
+img{
+    width: 30px;
+}
+input{
+    background: none;
+    border: none;
+    outline: none;
+}
+.task input{
+    font-size: 1.2em;
+}
+.titles{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.titles h1{
+    width: 50%;
+    /* color: black; */
+}
+.titles h1 i{
+    cursor: pointer;
+}
+.completed-task{
+    position: relative;
+    display: flex;
+    margin: 10px 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.completed-task::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    background-color: #3b3b3b;
+    width: 50%;
+    top: 50%;
+    z-index: 1;
+}
+.completed-task input{
+    color: #272727;
+}
+.null{
+    background: transparent;
+    margin: 0px 10px ;
+}
+.none{
+    display: none;
+}
+.gery{
+    text-decoration:underline #47B5FF;
+    color: black;
+}
+.gery2{
+    color: #a7a7a7;
+}
